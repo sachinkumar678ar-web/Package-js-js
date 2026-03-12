@@ -1,0 +1,19 @@
+# Dependency folder (Isse GitHub par upload nahi karte kyunki Render ise khud install karta hai)
+node_modules/
+
+# Local database/history files (Ye Render ki Disk par save hongi, GitHub par nahi)
+unlimited_history.json
+history.txt
+Full_History.txt
+
+# Environment variables (Agar aapne local .env file banayi ho)
+.env
+
+# Server logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
